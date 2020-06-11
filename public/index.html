@@ -10,15 +10,15 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="animate.css">
-    <script src="components/footer.js"></script>
-    <script src="components/app.js"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 </head>
 <body>
-    <div class="top-nav animated slideInDown">
+    <div id="root"></div>
+    <!-- <div class="top-nav animated slideInDown">
         <a href="#banner">home</a>&nbsp;|&nbsp;
         <a href="#about">about me</a>&nbsp;|&nbsp;
         <a href="#gallery">gallery</a>&nbsp;|&nbsp;
-    </div>
+    </div> -->
     <div class="Banner animated slideInDown delay-1s" id="banner">
         <div class="Container">
             <div class="circle"></div> 
@@ -35,7 +35,7 @@
         <div class="Quote">
             Hello! My name is Andrew Gonzalez. I'm currently a student at UNCC's Coding Bootcamp. 
             I'm a hobbyist for skateboarding, videogames, hiking, and computer tech. 
-            I also have a dog named Woody.<br><br> Learning to master programming is impossible, and that's why I've chosen to take my time to understand it and practice it. Meeting programmers who I can relate to and who'll share knowledge and stories with me is all part of the journey.<br><br> I hope to meet some of you along it.
+            I also have a dog named Woody.<br><br>
             
         </div>
     </div>
@@ -106,4 +106,6 @@
 
         </div>
     </div>
+    <script src="components/footer.js"></script>
+    <script src="components/app.js"></script>
 </body>
