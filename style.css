@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+* {
+    font-family: 'Ubuntu', sans-serif; font-size: 16px;
+    margin: auto; text-align: center; font-weight: 400;
+}
+body{
+    background-color: #EEE;
+}
+.top-nav{
+    width: 95%; height: 16px; padding-top: 20px; padding-bottom: 20px;
+    background: rgba(255,255,255, 0.2); font-size: 12px; letter-spacing: 2px;
+    text-transform: uppercase; color: #333; text-align: left;
+    padding-left: 5%; position: fixed; z-index: 9999;
+}
+a, a:hover, a:active, a:focus{
+    text-decoration: none; color: inherit; outline: none; font-size: inherit;
+}
+h1, h2, h3, h4, h5{
+    text-transform: uppercase; letter-spacing: 5px; font-weight: 400;
+    margin: 10px; font-size: 24px;
+}
+.Banner{
+    background-image: url("banner-bg.png"); height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; padding-top: 50px;
+    position: relative; z-index: -1;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid rgba(255,255,255, 0.2);
+}
+.Container{
+    position: absolute; top: 35%; left: 15%; z-index: 1; width: auto;
+}
+.circle{
+    width: 120px; height: 120px; border-radius: 50%; 
+    background-image: url("person.png"); background-size: cover;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+.Info{
+    position: absolute; left: 150px; top: 20px; width: 300px; height: auto;
+    text-transform: uppercase; letter-spacing: 3px; text-align: left
+}
+ .aboutMe{
+    width: 100%; height: auto; padding-top: 100px; padding-bottom: 100px;
+    background-image: url("about-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+} 
+.Quote{
+    width: 75%; height: auto; padding: 15px; margin-top: 10px; text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 20px; font-size: 14px;
+    background: rgba(255,255,255, 0.2)
+}
+.sign{
+    font-weight: 700; padding-left: 5px; padding-right: 5px; font-size: 10px; text-transform: uppercase;
+    color: #EEE; background: #333; border-radius: 10px;
+}
+.Gallery{
+    width: 100%; height: auto; background-image: url("gallery-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; height: 450px;
+    padding-top: 80px; padding-bottom: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    color: #EEE; text-align: center; margin: auto;
+}
+.grid{
+    display: grid; width: 75%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.img-Card{
+    width: 200px; height: 200px; border-radius: 20px;
+    background-position: center; background-size: cover;
+    box-shadow: 0px 0px 20px rgba(255,255,255, 0.4);
+    position: relative;
+}
+.img-cap{
+    position: absolute; bottom: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px; font-size: 42px; letter-spacing: 5px; text-transform: uppercase;
+    font-weight: 700; display: none; font-family: 'Ubuntu', sans-serif;
+}
+div.img-Card:hover div.img-cap{
+    display: block;
+}
+.img-Card:hover{
+    box-shadow: 0px 0px 20px rgba(255,255,255, 0.9);
+}
+.Contact{
+    width: 100%; height: 200px;
+    padding-top: 50px; padding-bottom: 50px;
+    background-image: url("contact-bg.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 30px rgba(255,255,255, 0.4)
+}
+.method{
+    width: 160px; height: 85px; border-radius: 20px; background: rgba(255,255,255, 0.4);
+    font-size: 16px; padding-top: 20px; text-transform: uppercase;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); transition: background 0.5s;
+}
+.method:hover{
+    background: rgba(255,255,255, 0.8);
+    transition: background 0.5s;
+}
+.Foot{
+    width: 100%; height: 200px; background: url("foot-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+.float{
+    position: absolute; top: 30px; left: 40px; 
+    
+}
+ul, li{
+    list-style: none;
+    text-align: left; color: #EEE; font-size: 14px;
+}
