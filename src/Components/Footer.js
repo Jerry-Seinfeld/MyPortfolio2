@@ -2,8 +2,6 @@ import './style.css';
 import React from 'react';
 export default Footer;
 
-
-
 function Footer() {
   return (
     <div className="Footer">
